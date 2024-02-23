@@ -1,6 +1,6 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
-import Comp from "./src/Primeiro";
+import Comp, {Comp2} from "./src/Primeiro";
 
 
 function App() {
@@ -8,6 +8,7 @@ function App() {
       <View style = {style.container}>
         <Text style = {style.txtG}>Mobile Enzo</Text>
         <Comp/>
+        <Comp2/>
       </View>
     ) 
 }
